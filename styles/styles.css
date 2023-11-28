@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+form{
+ background-color: white;
+ width: 60%;
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ padding: 1rem;
+}
+.button{
+    display: grid;
+    justify-items: center;
+}
+div{
+    margin-bottom: 1rem;
+    
+}
+.buttonSubmit{
+    width: 80%;
+    background-color: green;
+}
+#name, #email, #age{
+    width: 95%;
+    height: 2rem;
+}
+#description{
+    width: 95%;
+    height: 2rem;
+    font-size: 16px;
+}
